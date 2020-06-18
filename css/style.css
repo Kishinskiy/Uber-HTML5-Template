@@ -26,6 +26,10 @@ nav {
     color: #ffffff;
     font-size: 15px;
     font-weight: 300; }
+    .menu_link:hover {
+      text-decoration: none;
+      color: #1eacc7;
+      font-weight: 400; }
   .menu_item {
     border-right: 2px dotted black;
     padding-right: 28px; }
