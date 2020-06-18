@@ -347,6 +347,6 @@ nav {
   .require .warning .require_title {
     color: #ff5656; }
   .require .warning .require_list li::before {
-    background: url("../icons/icon_red.png") center center/cover no-repeat; }
+    background: url("../icons/red_icon.png") center center/cover no-repeat; }
 
 /*# sourceMappingURL=style.css.map */
