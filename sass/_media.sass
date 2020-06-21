@@ -14,15 +14,6 @@
             align-items: flex-start
         &_descr
             width: 300px
-    .mobile
-        &_item
-            width: 100%
-    footer
-        &_mobile
-            display: block
-            &_link
-                img
-                    margin-bottom: 20px
 
 @media (max-width: 991px)
     .menu
@@ -54,15 +45,7 @@
         &_descr
             width: 300px
             margin-top: 20px
-    .mobile
-        &_item
-            width: 100%
-    footer
-        &wrapper
-            display: block
-            &_link
-                img
-                    margin-bottom: 20px
+
 @media (max-width: 776px)
     .menu
         position: fixed
@@ -112,12 +95,20 @@
                     display: none
                 &:nth-child(3)
                     transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        &_phone
+            margin: 10px 0
+            text-align: center
+        &_btn
+            display: block
+            width: 160px
+            margin: 0 auto
+
     .choice
         img
             width: 100%
-    footer
-        &wrapper
-            display: flex
-            &_link
-                img
-                    margin-bottom: 20px
+
