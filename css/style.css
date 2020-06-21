@@ -542,7 +542,7 @@ footer a:hover {
 
 .footer_links {
   width: 390px;
-  margin: 0 auto;
+  margin-left: 150px;
 }
 
 .footer_links_main {
@@ -616,6 +616,9 @@ footer a:hover {
   .reasons_descr {
     width: 300px;
   }
+  .footer_links {
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 991px) {
@@ -657,6 +660,15 @@ footer a:hover {
   .reasons_descr {
     width: 300px;
     margin-top: 20px;
+  }
+  .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -749,15 +761,6 @@ footer a:hover {
   }
   .choice img {
     width: 100%;
-  }
-  .wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
