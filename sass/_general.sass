@@ -355,29 +355,19 @@ nav
 
 footer
   padding: 14px 23px 39px 23px
+  // padding: 20px 0
   a
     &:hover
       text-decoration: none
+.wrapper
+  display: flex
+  justify-content: space-between
 .footer
-  &_divider
-    width: 299px
-    height: 4px
-    background-color: #1fbad6
-    margin: 0 auto
-  &_wrapper
-    display: flex
-    justify-content: space-between
-    align-items: flex-start
-    padding-top: 32px
-  &_wrapper > div
-    width: 33%
-    &:nth-child(3)
-      display: flex
-      justify-content: flex-end
   &_social
     width: 160px
     display: flex
     justify-content: space-between
+    padding-bottom: 20px
     &_item
       display: flex
       justify-content: center
@@ -419,12 +409,7 @@ footer
       margin-top: 19px
       text-transform: uppercase
       text-align: center
-  &_mobile
-    display: flex
-    justify-content: center
-    align-items: center
-    &_item
-      margin: 0 10px
+      padding-bottom: 20px
 
 .xs-visible
   display: none
