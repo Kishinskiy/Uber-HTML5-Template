@@ -766,7 +766,11 @@ footer a:hover {
     font-size: 13px;
   }
   .footer_links_main a {
-    font-size: 13px;
+    font-size: 10px;
+  }
+  .footer_links_sub {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .footer_links_sub a {
     font-size: 8px;
