@@ -784,6 +784,9 @@ footer a:hover {
   .menu {
     width: 85%;
   }
+  .cities .look_all_cities {
+    font-size: 12px;
+  }
   .footer_links {
     width: 300px;
   }
