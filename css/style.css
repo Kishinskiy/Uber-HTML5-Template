@@ -768,5 +768,11 @@ footer a:hover {
   .menu {
     width: 85%;
   }
+  .footer_links_main a {
+    font-size: 13px;
+  }
+  .footer_links_sub a {
+    font-size: 8px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
