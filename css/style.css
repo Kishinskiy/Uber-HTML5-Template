@@ -765,6 +765,9 @@ footer a:hover {
   .look_all_cities {
     font-size: 13px;
   }
+  .footer_links {
+    width: 350px;
+  }
   .footer_links_main a {
     font-size: 10px;
   }
@@ -780,6 +783,18 @@ footer a:hover {
 @media (max-width: 541px) {
   .menu {
     width: 85%;
+  }
+  .footer_links {
+    width: 300px;
+  }
+}
+
+@media (max-width: 319px) {
+  .menu {
+    width: 80%;
+  }
+  .footer_links {
+    width: 250px;
   }
 }
 /*# sourceMappingURL=style.css.map */
