@@ -768,6 +768,9 @@ footer a:hover {
   .menu {
     width: 85%;
   }
+  .look_all_cities {
+    font-size: 13px;
+  }
   .footer_links_main a {
     font-size: 13px;
   }
