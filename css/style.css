@@ -762,12 +762,6 @@ footer a:hover {
   .choice img {
     width: 100%;
   }
-}
-
-@media (max-width: 541px) {
-  .menu {
-    width: 85%;
-  }
   .look_all_cities {
     font-size: 13px;
   }
@@ -776,6 +770,12 @@ footer a:hover {
   }
   .footer_links_sub a {
     font-size: 8px;
+  }
+}
+
+@media (max-width: 541px) {
+  .menu {
+    width: 85%;
   }
 }
 /*# sourceMappingURL=style.css.map */
