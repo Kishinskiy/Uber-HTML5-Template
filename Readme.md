@@ -2,4 +2,4 @@
 
 ## Preview
 
-[![alt text](images/preview.jpg "preview")](https://kishinskiy.github.io/UberTemplate/)
+[![alt text](images/preview.jpg "preview")](https://kishinskiy.github.io/Uber-HTML5-Template/)
